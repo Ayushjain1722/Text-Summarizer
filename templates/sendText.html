@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+<body>
+    {% block body %}
+    <form style="position:absolute; top:40%" action='{url_for("sendText")}' method='post'>
+        <label for="w3review">Text:</label>
+        <textarea id="w3review" name="w3review" rows="4" cols="210">
+Enter your text here...
+          </textarea>
+          <br><br>
+          <input class="btn btn-primary" style="position: absolute;left:45%" type="submit" value="Submit">
+    </form>
+    {% endblock %}
+</body>
