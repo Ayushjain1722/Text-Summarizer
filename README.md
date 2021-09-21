@@ -66,6 +66,8 @@ https://text-summarizer-ayush.herokuapp.com/
 
 ## Flowchart Methodology
 
+![image](https://user-images.githubusercontent.com/42894689/134236776-249cf7ab-180e-4ad5-821a-2d9f5da1c64e.png)
+
 ## UI Screenshots
 
 ![image](https://user-images.githubusercontent.com/42894689/134193094-a99d02a5-daab-4f74-a52f-b5b711736411.png)
