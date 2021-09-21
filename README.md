@@ -72,8 +72,6 @@ https://text-summarizer-ayush.herokuapp.com/
 
 ![image](https://user-images.githubusercontent.com/42894689/134193192-f3d985d6-55cb-4bbb-a4e9-f470932efe81.png)
 
-## GIF showing the process for sample text
-
 ## Input example
 
 ```
