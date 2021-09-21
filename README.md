@@ -92,3 +92,5 @@ The WHA will consider a draft resolution (EB146.R10) that strengthens Member Sta
 
 ## Challenges
 
+1. Converting various features into numerical data for easy computations.
+2. Pre-processing the data so that it doesn't contain any unwanted character, word or sentence. 
