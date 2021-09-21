@@ -10,7 +10,7 @@ https://text-summarizer-ayush.herokuapp.com/
 
 ## Novelty
 
-1. Data Generation: Used NLP to generate summary of a given long text. 
+1. Data Generation: Used NLP to generate summary of a given long text and return a downloadable text file.
 2. Hybrid Methodology: Used 8 different approaches (cue phrases, numeric data, sentence length, sentence position, word frequency, word frequency, upper case, proper noun, heading matching) for feature extraction and including the sentences whose sum of above features > 1.5*average.
 3. Preprocessing: on the document to remove stopwords, converting all words into lowercase, tokenizing the document ans stemming the words using Porter Stemmer.
 
