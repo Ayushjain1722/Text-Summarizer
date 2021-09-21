@@ -115,7 +115,7 @@ def upperCaseCalc(sent_tokens, word_tokens):
     return upperCase
 
 def properNounCalc(sent_tokens):
-    nltk.download('averaged_perceptron_tagger')
+    # nltk.download('averaged_perceptron_tagger')
     properNoun = {}
     for sentence in sent_tokens:
         tagged_sent = pos_tag(sentence.split())
