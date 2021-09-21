@@ -169,7 +169,9 @@ def getSummary(cuePhrases, numericData, sentLenScore, sentencePosition, wordFreq
 
 
 def summarize(text):
-
+    nltk.download('punkt')
+    nltk.download('stopwords')
+    nltk.download('averaged_perceptron_tagger')
     sent_tokens = nltk.sent_tokenize(text)
     word_tokens = nltk.word_tokenize(text)
     word_tokens_lower = [word.lower() for word in word_tokens]
